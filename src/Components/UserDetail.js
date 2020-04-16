@@ -61,9 +61,13 @@ const UserDetail = props => {
                     <div>{post.title}</div>
                   </div>
                   <div>{post.body}</div>
+                  <button>DELETE</button>
                 </div>
               ))}
           </div>
+
+          <div className="mainHeader">ADD POSTS</div>
+          {/* TODO: add "ADD POSTS" section */}
         </Fragment>
       )}
     </Fragment>
