@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Components/Home";
-import UserView from "./Components/UserView";
+import UserList from "./Components/UserList";
+import UserDetail from "./Components/UserDetail";
 
 export default function OliverTakeHome() {
   return (
@@ -12,9 +13,10 @@ export default function OliverTakeHome() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/users">
-            <UserView />
+          <Route exact path="/users">
+            <UserList />
           </Route>
+          <Route path="/user/:id" render={props => <UserDetail {...props} />} />
         </Switch>
       </div>
     </Router>

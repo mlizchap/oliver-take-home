@@ -1,0 +1,39 @@
+.header {
+  font-weight: bold;
+}
+
+.userInfo {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.phoneAddressRow {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.posts {
+  margin-top: 2rem;
+}
+
+.titleSection {
+  display: flex;
+}
+
+.postTitle {
+  margin-right: 2px;
+}
+
+.mainHeader {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.subheader {
+  font-weight: bold;
+}
