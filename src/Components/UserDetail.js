@@ -61,6 +61,7 @@ const UserDetail = props => {
                     <div>{post.title}</div>
                   </div>
                   <div>{post.body}</div>
+                  {/* TODO: add delete functionality */}
                   <button>DELETE</button>
                 </div>
               ))}
